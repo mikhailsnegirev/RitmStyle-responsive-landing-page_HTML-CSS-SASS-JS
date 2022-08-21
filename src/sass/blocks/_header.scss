@@ -1,0 +1,20 @@
+.header {
+  padding-top: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  &__nav {
+    display: flex;
+    gap: 50px;
+    a {
+        color: inherit;
+      }
+    &-item {
+      list-style-type: none;
+    }
+  }
+}
+
