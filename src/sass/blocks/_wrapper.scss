@@ -1,0 +1,19 @@
+.wrappers {
+  position: relative;
+  &_sessions {
+    position: absolute;
+    display: flex;
+    gap: 45px;
+    align-items: baseline;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 576px) {
+  .wrappers {
+    &_sessions {
+      gap: 5px;
+    }
+  }
+}

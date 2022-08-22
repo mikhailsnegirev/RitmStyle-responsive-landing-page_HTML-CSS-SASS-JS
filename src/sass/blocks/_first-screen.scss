@@ -77,6 +77,28 @@
 
 @media (max-width: 576px) {
   .first-screen {
+      &__subtitle {
+        top: 96px;
+        right: 208px;
+        font-size: 16px;
+      }
+  
+      &__title {
+        font-size: 30px;
+        top: 120px;
+        right: 195px;
+      }
+  
+      &__ritm {
+        font-size: 30px;
+        top: 150px;
+        right: 214px;
+      }
+    }
+}
+
+@media (max-width: 375px) {
+  .first-screen {
     &__subtitle {
       top: 96px;
       right: 98px;
