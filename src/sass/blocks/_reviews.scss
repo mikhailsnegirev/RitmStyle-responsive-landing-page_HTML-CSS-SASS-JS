@@ -48,7 +48,11 @@
 }
 
 @media (max-width: 768px) {
-
+  .reviews {
+    .title {
+      font-size: 29px;
+    }
+  }
 }
 
 @media (max-width: 576px) {
