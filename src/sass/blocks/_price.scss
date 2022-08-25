@@ -1,0 +1,42 @@
+.price {
+  padding-top: 100px;
+  &__wrapper {
+    margin-top: 100px;
+    display: grid;
+    grid-template: repeat(1, 460px) / repeat(2, 416px);
+    gap: 294px;
+  }
+  &__img {
+    position: relative;
+    img {
+      object-fit: cover;
+    }
+    &-descr {
+      position: absolute;
+      left: 35%;
+      font-weight: 700;
+      font-size: 21px;
+      margin-top: 30px;
+    }
+  }
+  &__services {
+    margin-top: 50px;
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 31px;
+    }
+    &-descr {
+      font-weight: 400;
+      font-size: 18px;
+      &::before {
+        content: url(../icons/price.svg);
+        margin-right: 20px;
+      }
+    }
+    &-value {
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+}
