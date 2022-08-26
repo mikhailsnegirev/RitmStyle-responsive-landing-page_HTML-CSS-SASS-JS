@@ -36,6 +36,23 @@
   }
 }
 
+@media (max-width: 2600px) and (min-width:1441px) {
+  .first-screen {
+      &__subtitle {
+        top: 156px;
+        right: 1108px;
+      }
+      &__title {
+        top: 200px;
+        right: 1040px;
+      }
+      &__ritm {
+        top: 260px;
+        right: 1094px;
+      }
+    }
+}
+
 @media (max-width: 1200px) {}
 
 @media (max-width: 992px) {
